@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación - Chiclana Mágica</title>
+    <meta name="description" content="Descubre Chiclana de la Frontera y sus Puntos Mágicos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+  </head>
+  <body class="presentacion">
+    <header>
+        <div class="container">
+            <h1>
+                <a href="index.html">
+                    <img src="img/logo.svg" class="logo" alt="Logo Chiclana Mágica">
+                    Chiclana Mágica
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="puntos-magicos.html">Puntos Mágicos</a></li>
+                    <li class="active"><a href="presentacion.html">Presentación</a></li>
+                    <li><a href="enlaces.html">Enlaces</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <article>
+                <h2 class="text-center">Presentación</h2>
+                <p>En este sitio web se da a conocer el municipo gaditano de Chiclana de la Frontera, y 7 lugares de interés conocidos como "Puntos Mágicos"</p>
+                <p>El logotipo se ha creado inspirado en la silueta del castillo de Sancti Petri, el más emblemático de los puntos mágicos, durante la puesta de sol.</p>
+                <p>
+                    El siguiente par de imágenes muestra una animación CSS que simula la mencionada puesta de sol, junto con una foto real para tener comparativa.
+                    Pase el ratón por encima (o tocalas, si estás en un móvil) para detener la animación.
+                </p>
+
+                <div class="sunsetsContainer">
+                    <div class="sunset">
+                        <svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+                            <rect id="cielo" x="0" y="0" width="500" height="300" fill="#cce5ff"></rect>
+                            <circle id="sol" r="50" cx="250" cy="0" fill="#ffff00" stroke="#ffff00" stroke-width="10"/>
+                            <rect id="mar" x="0" y="200" width="500" height="100" fill="#0063cc"></rect>                        
+                            <rect id="castillo" x="0" y="190" width="500" height="10" fill="#fff2e6"></rect>
+                            <rect id="castillo" x="100" y="170" width="101" height="21" fill="#fff2e6"></rect>
+                            <rect id="castillo" x="200" y="180" width="101" height="11" fill="#fff2e6"></rect>
+                            <rect id="castillo" x="300" y="170" width="100" height="21" fill="#fff2e6"></rect>
+                            <rect id="castillo" x="370" y="140" width="30" height="41" fill="#fff2e6"></rect>
+                        </svg>
+                    </div>
+                    <div class="sunset">
+                        <img 
+                            srcset="img/detalle75.jpg?as=webp&width=600&height=360 600w
+                                , img/detalle75.jpg?as=webp&width=800&height=480 800w
+                                , img/detalle75.jpg?as=webp&width=1000&height=600 1000w"
+                            sizes="(max-width: 600px) 600px
+                                , (max-width: 800px) 800px
+                                , 1000px"
+                            src="img/detalle75.jpg?width=1000&height=600" 
+                            alt="Puesta de sol en el Castillo de Sancti Petri" 
+                            class="img-adaptable"
+                        >
+                    </div>
+                </div>
+
+                <h3 class="text-center">Chiclana de la Frontera</h3>
+                <div class="floatLeft">
+                    <img class="img-adaptable" src="img/P1.svg" alt="Mapa de España">
+                    <div class="mapMark1">
+                        <div class="mapMarkPointer">
+                            <img alt="Chiclana de la Frontera" src="img/mapMark.webp" width="12" height="12">
+                        </div>
+                        <div class="mapMarkText">
+                            <span>Chiclana de la Frontera</span>
+                        </div>
+                    </div>
+                </div>
+                <p>Chiclana de la Frontera es un municipio español de la provincia de Cádiz, en la comunidad autónoma de Andalucía. Forma parte del área metropolitana de la Bahía de Cádiz-Jerez, tercer área metropolitana de Andalucía</p>
+                <div class="floatRight">
+                    <img class="img-adaptable" src="img/P2.svg" alt="Mapa de la provincia de Cádiz">
+                    <div class="mapMark2">
+                        <div class="mapMarkPointer">
+                            <img alt="Chiclana de la Frontera" src="img/mapMark.webp" width="12" height="12">
+                        </div>
+                        <div class="mapMarkText">
+                            <span>Chiclana de la Frontera</span>
+                        </div>
+                    </div>
+                </div>
+                <p>La fundación de la actual Chiclana se produjo en 1303, cuando el rey Fernando IV de Castilla entregó las tierras chiclaneras a la Casa de Medina Sidonia. El actual casco urbano se levanta durante el siglo xviii. En la guerra de la Independencia Española se produjo la batalla de Chiclana entre franceses y aliados anglo-españoles. Hoy en día la economía chiclanera depende de una industria moderna y del turismo, especialmente de las playas y de los campos de golf asentados fundamentalmente en el Novo Sancti Petri, urbanización que cuenta con el mayor número de plazas hoteleras en la provincia de Cádiz y en toda la Costa de la Luz.</p>
+                <p>El término municipal hace frontera al norte con los municipios de San Fernando y Puerto Real; por la costa hacia el sur con Conil de la Frontera y por tierra limita con Medina Sidonia y una pequeña parte de Vejer de la Frontera. El municipio contaba en 2022 con una población de 87 493.2​ y tiene una densidad poblacional de 404,71 hab./km². Sus coordenadas geográficas son 36°25′N 6°09′O y su altitud es de 11 m s. n. m.</p>
+
+                <h3 class="text-center">Puntos Mágicos</h3>
+                <p>Si te animas a visitar Chiclana, has de saber que los atractivos de los que podrás disfrutar son muchos y variados. Atractivos que están presentes todo el año y que están íntimamente ligados a los paisajes, la historia, la cultura, la gastronomía, el deporte, las fiestas, las tradiciones y, muy en especial, la magia.</p>
+                <p>Magia que, como podrás descubrir, nos habla de un destino de diversidad, de acontecimientos, de paisajes, de historia, de sensaciones y experiencias… de Chiclana de la Frontera.</p>
+                <p>Una magia que, de forma muy especial, se escenifica en los llamados puntos mágicos, atalayas desde las que podrás contemplar y entender un poco más y mejor todo eso que ha hecho de Chiclana lo que es hoy día, uno de los mejores destinos turísticos.</p>
+                
+                <figure>
+                    <div class="carousel">
+                        <img class="carousel-img" src="img/pm1.webp" alt="Colina de Santa Ana">
+                        <img class="carousel-img" src="img/pm2.webp" alt="El Carrascal">
+                        <img class="carousel-img" src="img/pm3.webp" alt="La Espartosa">
+                        <img class="carousel-img" src="img/pm4.webp" alt="Las Salinas">
+                        <img class="carousel-img" src="img/pm5.webp" alt="Loma del Puerco">
+                        <img class="carousel-img" src="img/pm6.webp" alt="Miralamar">
+                        <img class="carousel-img" src="img/pm7.webp" alt="Templo de Hércules">
+                    </div>
+                    <figcaption>
+                        <p>Carrusel de imágenes de los puntos mágicos</p>
+                    </figcaption>
+                </figure>
+
+                <p>Colina de Santa Ana, Loma del Puerco, Templo de Hércules, Salinas, Miralmar, El Carrascal y La Espartosa, estos son los nombres de siete enclaves chiclaneros que no olvidarás. Atalayas que, estratégicamente, salpican nuestra franja litoral y casco histórico para mostrarte paisajes de extraordinaria belleza.</p>
+                <p>Puntos mágicos, únicos, desde los que podrás disfrutar de atardeceres indescriptibles, asomarte a entornos naturales de gran singularidad, avistar paisajes que van más allá de nuestras fronteras y ‘leer’ páginas de especial relevancia histórica.</p>
+                <p>Miradas, siete, que se proyectan sobre lugares tan envolventes como el islote en el que, hace ahora tres mil años, los fenicios levantaron el Templo de Melkart o el Parque Natural de la Bahía de Cádiz, refugio privilegiado de miles de aves, y de las que podrás disfrutar a través de cómodos paseos por nuestras calles y playas.</p>
+                
+            </article>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="puntos-magicos.html">Puntos Mágicos</a></li>
+                    <li class="active"><a href="presentacion.html">Presentación</a></li>
+                    <li><a href="enlaces.html">Enlaces</a></li>
+                </ul>
+            </nav>
+            <div class="footerContainer">
+                <div>
+                    <a href="index.html">
+                        <img src="img/logo.svg" class="logo" alt="Logo Chiclana Mágica">
+                        Chiclana Mágica
+                    </a>
+                </div>
+                <div>2023 &copy; Javier Benita Crespo</div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
