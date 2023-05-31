@@ -640,8 +640,8 @@ body.detalle .multicard>div {
 
 @keyframes sol {
   0% {}
-  80% {fill: #ff0000; stroke: #ff0000; cy: 170;}
-  100% {fill: #ff0000; stroke: #ff0000; cy: 170;}
+  80% {fill: #ff0000; stroke: #ff0000; cy: 170px;}
+  100% {fill: #ff0000; stroke: #ff0000; cy: 170px;}
 }
 @keyframes castillo {
   0% {}
