@@ -46,4 +46,4 @@ function initCarousel(){
 // destroy,remove carousel html and event
 //carousel.destroy()
 
-lazyframe(".lazyframe");
+//lazyframe(".lazyframe");
