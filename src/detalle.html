@@ -12,7 +12,11 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script type="module" src="app.js"></script>
+    <!--<link rel="stylesheet" href="dist/lazyframe.css" />-->
+    <link rel="stylesheet" href="lazyframe/lazyframe.css" />
+    <!--<script src="dist/lazyframe.min.js"></script>-->
+    <script defer src="lazyframe/lazyframe.min.js"></script>
+    <script defer type="module" src="app.js"></script>
     <link rel="icon" href="img/favicon.png" type="image/png">
 </head>
 
@@ -121,10 +125,20 @@
                     Magno, pues, a sus treinta y dos años, aún no había alcanzado la gloria del Macedonio.</p>
                 <figure>
                     <div class="video-adaptable">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HbsMl8CpQZ8"
+                        <div
+                            class="lazyframe"
+                            data-vendor="youtube"
+                            data-title="ASD"
+                            data-thumbnail=""
+                            data-src="https://www.youtube.com/embed/HbsMl8CpQZ8"
+                            data-ratio="1:1"
+                            data-initinview="false"
+                            data-autoplay="false"
+                        ></div>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/HbsMl8CpQZ8"
                             title="YouTube video player"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen class="video-adaptable-item"></iframe>
+                            allowfullscreen class="video-adaptable-item"></iframe>-->
                     </div>
                     <figcaption>
                         <p>Qué ver en Cádiz - El Castillo de Santi Petri</p>
