@@ -3,7 +3,8 @@
 :root {
   --text-color1: rgb(23, 23, 23);
   --text-color2: rgb(255, 255, 255);
-  --contrast-color: rgb(170, 168, 24);
+  --contrast-color: rgb(95, 89, 13);
+  --contrast-color-light: rgb(170, 168, 24);
   --bg-color: rgb(13, 19, 95);
   --bg-color2: rgb(40, 51, 207);
 }
@@ -87,6 +88,10 @@ a {
 
 a:hover {
   color: var(--contrast-color);
+}
+
+nav a:hover, header a:hover, footer a:hover {
+  color: var(--contrast-color-light);
 }
 
 header {
@@ -278,7 +283,7 @@ footer {
 
 nav li.active {
   font-weight: 700;
-  color: var(--contrast-color);
+  color: var(--contrast-color-light);
 }
 
 nav li.active::before {
@@ -365,7 +370,7 @@ body.home a {
 
 body.home a:hover {
   border: none;
-  color: var(--contrast-color);
+  color: var(--contrast-color-light);
 }
 
 body.home nav ul {
